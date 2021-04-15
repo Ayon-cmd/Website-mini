@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0
+}
+.navsection{
+    background-color: aqua;
+    background-image: linear-gradient(#fff, #c3f5ff);
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav{
+    
+    width:50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: 'Zen Dots', cursive;
+}
+nav a{
+    text-decoration: none;
+    text-decoration:uppercase;
+    color: brown;
+    position: relative;
+}
+nav a:first-child{
+    color: darkblue;
+}
+nav a::after{
+    content:"";
+    position: absolute;
+    top:110%;
+    left: 0;
+    width: 00%;
+    height: 2px;
+    border-bottom: 2px solid brown;
+    transition: all 0.4s;
+}
+nav a:hover::after{
+   
+    color:red;
+    width: 100%;
+    
+    
+}
+nav a::after:hover{
+    color:red;
+    border-bottom: 2px solid red;
+
+}
+/*......................MAIN SECTION ..........*/
+/*......................MAIN SECTION ..........*/
+.main-section{
+    height: 90vh;
+     background-image: linear-gradient(#60d666, #c3f5ff);
+     text-align: center;
+     margin-bottom: cale(3rem + 5vh);
+}
+h1{
+  padding-top: 105px;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.hobby{
+    padding-top: 55px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Zen Dots', cursive;
+}
+.button-click{
+    margin-top: 85px;
+    box-sizing: border-box;
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    background-image: linear-gradient(#60d666, #c3f5ff);
+    font-size: 18px;
+    border-bottom: 2px solid red;
+    font-family: 'Orelega One', cursive;
+    text-transform: uppercase;
+    color: black
+    
+    
+   
+}
+.button-click:hover{
+    color:red;
+    
+}
+h2{
+    padding-top: 85px;
+    text-transform: uppercase;
+}
+
+.last-part{
+    padding-top: 260px;
+    color: red;
+}
